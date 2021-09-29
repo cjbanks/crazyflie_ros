@@ -9,7 +9,7 @@
 #include "crazyflie_driver/SetGroupMask.h"
 #include "crazyflie_driver/StartTrajectory.h"
 #include "crazyflie_driver/Stop.h"
-#include "crazyflie_driver/Takeoff.h"
+#include "crazyflie_driver/Takeoff.h"n
 #include "crazyflie_driver/UpdateParams.h"
 #include "crazyflie_driver/UploadTrajectory.h"
 #include "crazyflie_driver/sendPacket.h"
@@ -17,6 +17,7 @@
 #include "crazyflie_driver/LogBlock.h"
 #include "crazyflie_driver/GenericLogData.h"
 #include "crazyflie_driver/FullState.h"
+#include "crazyflie_driver/nineState.h"
 #include "crazyflie_driver/Hover.h"
 #include "crazyflie_driver/Stop.h"
 #include "crazyflie_driver/Position.h"
@@ -131,6 +132,7 @@ public:
     , m_serviceNotifySetpointsStop()
     , m_subscribeCmdVel()
     , m_subscribeCmdFullState()
+    , m_subscribeCmdNineState()
     , m_subscribeCmdVelocityWorld()
     , m_subscribeCmdHover()
     , m_subscribeCmdStop()
