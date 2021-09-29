@@ -49,6 +49,7 @@ add_message_files(
   LogBlock.msg
   GenericLogData.msg
   FullState.msg
+  nineState.msg
   VelocityWorld.msg
   TrajectoryPolynomialPiece.msg
   crtpPacket.msg
