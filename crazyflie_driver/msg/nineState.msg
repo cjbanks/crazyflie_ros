@@ -1,3 +1,3 @@
 Header header
-geometry_msgs/Vector3 omega
-float32 thrust
+geometry_msgs/Pose pose
+geometry_msgs/Twist twist
